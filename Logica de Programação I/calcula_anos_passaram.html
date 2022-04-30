@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	function pulaLinha(){
+		document.write("<br>");
+	};
+
+	function mostra(parametro){
+		document.write(parametro);
+		pulaLinha();
+	};
+
+	var anoAtual = 2022;
+	var anoChegada = 1500;
+	var mediaAno = 28;
+	var calculaAnos = anoAtual - anoChegada;
+	var mediaTotal = calculaAnos/mediaAno;
+	mostra("Os portugueses chegaram no Brasil a "+calculaAnos+" anos");
+	mostra("Passaram "+Math.round(mediaTotal)+" de Gerações.");
+
+
+	
+
+</script>

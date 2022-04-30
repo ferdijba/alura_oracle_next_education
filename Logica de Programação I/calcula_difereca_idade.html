@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<script>
+function pulaLinha(){
+
+    document.write("<br>");
+}
+
+function mostra(parametro){
+
+    document.write(parametro);
+    pulaLinha();
+
+};
+
+var idadeFerdi = 37;
+var idadeCarol = 35;
+var nome1= "Ferdinando";
+var nome2 = "Carolina";
+var anoNasc1 = 1985;
+var anoNasc2 = 1987;
+var anoAtual = 2022;
+var calculaIdadeFerdi;
+var calculaIdadeCarol;
+var calculaIdades;
+
+//Calcula a Idade de cada um
+calculaIdadeFerdi = anoAtual - anoNasc1;
+calculaIdadeCarol = anoAtual - anoNasc2;
+
+//Calcula a diferença de Idade
+calculaIdades = idadeFerdi - idadeCarol;
+
+mostra("Ferdinando nasceu no ano de "+anoNasc1+ " e tem "+ calculaIdadeFerdi+ " anos");
+mostra("Carolina nasceu no ano de "+anoNasc2+ "e tem "+calculaIdadeCarol+" anos");
+mostra("A diferença de idade entre nós é de: "+calculaIdades+ " anos")
+
+
+</script>

@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha() {
+    document.write("<br><br>");
+}
+
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+    document.write("<hr>");
+}
+
+function abreBig(abreBig) {
+    document.write("<big>");
+}
+function fechaBig(fechaBig) {
+    document.write("</big>");
+}
+
+var ano = 2019;
+abreBig();
+mostra("Eu nasci em : " + (ano - 25));
+fechaBig();
+mostra("<big>Adriano nasceu em : " + (ano - 26)+"</big>");
+mostra("Paulo nasceu em : " + (ano - 32));
+
+</script>
