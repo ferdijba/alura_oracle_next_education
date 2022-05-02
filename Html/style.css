@@ -1,11 +1,22 @@
+body{
+    background: E0FFFF      ;
+}
 p{
     text-align: justify;
     font-size: 20px;
     font-family: inherit;
+    color: #0000FF;
+}
+#missao{
+    font-size: 30px;
+}
+#banner{
+    width: 100%;
 
 }
-
 h1{
     text-align: center;
-    background: rgb(100, 150, 200);
+}
+em strong{
+    color: #FF0000;
 }
